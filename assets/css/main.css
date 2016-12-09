@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255,255,255,0.5);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -1889,16 +1889,16 @@
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(255, 255, 255, 0.5) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
 		font-weight: bold;
-		height: calc(4.75em + 2px);
+		height: calc(5.75em + 2px);
 		letter-spacing: 0.25em;
-		line-height: 4.75em;
+		line-height: 5.75em;
 		outline: 0;
 		padding: 0 3.75em;
 		position: relative;
@@ -3533,8 +3533,8 @@
 /* Sidebar */
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		padding: 2.5em 2.5em 0.5em 2.5em;
+		background: #4E0110;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3778,7 +3778,7 @@
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #C16200, #881600);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3892,6 +3892,7 @@
 
 		#intro p {
 			font-size: 1.25em;
+			color: #ffffff;
 		}
 
 			@media screen and (max-width: 980px) {
