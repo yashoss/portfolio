@@ -1806,7 +1806,7 @@
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.05);
+		background: #E3E36A;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		font-family: "Courier New", monospace;
